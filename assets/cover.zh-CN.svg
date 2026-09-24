@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+  <title id="title">Depth-Controlled Cross-Validation</title>
+  <desc id="desc">原始 PDF 和上游 JSON 经可配置的交叉验证，形成逐页与整篇报告。</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop offset="0" stop-color="#102b43"/>
+      <stop offset="1" stop-color="#174866"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="410" rx="22" fill="url(#bg)"/>
+  <rect x="56" y="45" width="72" height="7" rx="3" fill="#ff826f"/>
+  <text x="56" y="116" fill="#fff" font-family="Georgia,serif" font-size="53" font-weight="700">Depth-Controlled Cross-Validation</text>
+  <text x="58" y="155" fill="#cde5ed" font-family="Arial,sans-serif" font-size="24">核对 PDF 解析差异，定位需要人工复核的内容。</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="58" y="210" width="292" height="136" rx="17" fill="#f7fbfd"/>
+    <rect x="454" y="210" width="292" height="136" rx="17" fill="#f7fbfd"/>
+    <rect x="850" y="210" width="292" height="136" rx="17" fill="#f7fbfd"/>
+    <text x="82" y="268" fill="#1d6271" font-size="22" font-weight="700">01 · 输入</text>
+    <text x="82" y="307" fill="#12344c" font-size="27" font-weight="700">PDF + 解析 JSON</text>
+    <text x="478" y="268" fill="#1d6271" font-size="22" font-weight="700">02 · 验证</text>
+    <text x="478" y="307" fill="#12344c" font-size="27" font-weight="700">Depth 1–5</text>
+    <text x="874" y="268" fill="#1d6271" font-size="22" font-weight="700">03 · 复核</text>
+    <text x="874" y="307" fill="#12344c" font-size="27" font-weight="700">逐页与整篇报告</text>
+  </g>
+  <path d="M368 278h65m-15-11 15 11-15 11M764 278h65m-15-11 15 11-15 11" fill="none" stroke="#37b9bf" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="58" y="386" fill="#cde5ed" font-family="Arial,sans-serif" font-size="18">证据支持分 · 定位疑点 · 定点复核清单</text>
+</svg>

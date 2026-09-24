@@ -1,0 +1,109 @@
+{
+  "document_type": "general",
+  "pages": [
+    {
+      "page_index": 0,
+      "printed_page_label": "1",
+      "blocks": [
+        {
+          "id": "h",
+          "type": "heading",
+          "text": "Policy",
+          "bbox": [
+            55,
+            60,
+            160,
+            82
+          ],
+          "heading_level": 1,
+          "order": 0
+        },
+        {
+          "id": "p",
+          "type": "paragraph",
+          "text": "Dose must not exceed 10 mg.",
+          "bbox": [
+            55,
+            105,
+            260,
+            132
+          ],
+          "parent_id": "h",
+          "order": 1
+        },
+        {
+          "id": "t",
+          "type": "table",
+          "bbox": [
+            60,
+            192,
+            260,
+            272
+          ],
+          "order": 2,
+          "cells": [
+            {
+              "id": "a",
+              "row": 0,
+              "column": 0,
+              "text": "A",
+              "bbox": [
+                60,
+                192,
+                160,
+                232
+              ]
+            },
+            {
+              "id": "b",
+              "row": 0,
+              "column": 1,
+              "text": "B",
+              "bbox": [
+                160,
+                192,
+                260,
+                232
+              ]
+            },
+            {
+              "id": "one",
+              "row": 1,
+              "column": 0,
+              "text": "1",
+              "bbox": [
+                60,
+                232,
+                160,
+                272
+              ]
+            },
+            {
+              "id": "two",
+              "row": 1,
+              "column": 1,
+              "text": "2",
+              "bbox": [
+                160,
+                232,
+                260,
+                272
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n",
+          "type": "page_number",
+          "text": "1",
+          "bbox": [
+            285,
+            742,
+            320,
+            772
+          ]
+        }
+      ]
+    }
+  ]
+}

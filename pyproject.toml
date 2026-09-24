@@ -1,0 +1,18 @@
+[project]
+name = "depth-controlled-cross-validation"
+version = "0.1.0"
+description = "Local evidence-based validation of page-level PDF extraction JSON"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+  "pdfplumber>=0.11,<0.13",
+  "pypdf>=6,<7",
+  "pypdfium2>=4,<6",
+]
+
+[project.optional-dependencies]
+test = ["reportlab>=4,<5"]
+
+[tool.uv]
+package = false
