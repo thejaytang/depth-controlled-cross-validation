@@ -11,6 +11,10 @@ For teams receiving a PDF and its page-level extraction JSON, this local CLI com
 
 **Current stage:** runnable prototype. The included sample and 25 synthetic behavior tests exercise the local workflow. Accuracy on real business documents and the reduction in human review time have not been measured.
 
+## Next-version Depth 5
+
+The owner has defined **Depth 5 as LLM fine-grained review** of the source image, candidate extraction and existing discrepancies. Depths 1–4 remain local checks. **The model adapter is not connected yet**; the current v0.1 CLI below still uses legacy local-reader counting. See the [accepted design and evidence contract](project-support/depth-5-model-review.md) and [current state](PROJECT_STATE.md).
+
 ## Try the included example
 
 Requires Python 3.12+, [uv](https://docs.astral.sh/uv/), [Poppler's `pdftotext`](https://poppler.freedesktop.org/), and [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) with English language data. Check that `pdftotext` and `tesseract` are on your `PATH`.

@@ -11,6 +11,10 @@
 
 **当前阶段：**本地原型可运行。随附示例和 25 项合成样本行为测试覆盖了本地工作流；真实业务文档的准确性与节省人工复核时间的效果尚未测量。
 
+## 下一版深度 5
+
+项目已确定：**深度 5 为大模型精细查验**，结合原文图像、候选抽取结果和已有差异；深度 1–4 保留本地检查。**大模型适配器尚未接入**，下文所述 v0.1 CLI 仍使用旧版本地读取器计数。详见[已确定的设计与证据要求](project-support/depth-5-model-review.md)和[当前状态](PROJECT_STATE.md)。
+
 ## 运行随附示例
 
 需要 Python 3.12+、[uv](https://docs.astral.sh/uv/)、[Poppler 的 `pdftotext`](https://poppler.freedesktop.org/) 和带英语语言数据的 [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)。先确认 `pdftotext` 和 `tesseract` 位于 `PATH`。
